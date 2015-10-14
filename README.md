@@ -11,3 +11,12 @@ It runs:
 * PHPUnit + Codecoverage.
  
 All results are saved inside phing-build directory.
+
+### Requirements:
+* php
+* phing/phing
+* squizlabs/php_codesniffer
+* phpmd/phpmd
+* sebastian/phpcpd
+* phpunit/phpunit
+* ext-xsl (It requires php extension xsl to generate coverage html report).
