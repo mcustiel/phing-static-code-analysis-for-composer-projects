@@ -8,7 +8,9 @@ It runs:
 * PHPMD for unusedcode, codesize, controversial, design, naming rules.
 * PHP Copy Paste detector.
 * PHP LOC.
+* PHP Depend.
 * PHPUnit + Codecoverage.
+* PHPDocumentor.
  
 All results are saved inside phing-build directory.
 
@@ -18,5 +20,7 @@ All results are saved inside phing-build directory.
 * squizlabs/php_codesniffer
 * phpmd/phpmd
 * sebastian/phpcpd
+* pdepend/pdepend
 * phpunit/phpunit
+* phpdocumentor/phpdocumentor
 * ext-xsl (It requires php extension xsl to generate coverage html report).
