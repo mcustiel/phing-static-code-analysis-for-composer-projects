@@ -1,4 +1,4 @@
-# Static code analysis for php/composer projects
+# Static code analysis for php/composer projects using Phing
 
 This is a Phing build file that I generally use to run static code analysis tools and phpunit in my composer projects.
 
