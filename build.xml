@@ -97,7 +97,6 @@
     <!-- ============================================ -->
     <!-- Target: mess (Detects mess in code. Recommended rulesets: --> 
     <!-- unusedcode,codesize,controversial,design,naming) -->
-    <!-- It can be also used as <pmd> tag. -->
     <!-- ============================================ -->
     <target name="mess">
         <echo msg="Running mess detector" />
