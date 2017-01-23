@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project name="Phing static code analysis" default="all">
+	<php expression="include('./vendor/autoload.php')" />
     <!-- Properties -->
     <property name="dir.base" value="." />
     <property name="dir.tests" value="${project.basedir}/tests" />
@@ -127,7 +127,7 @@
         </phploc>
     	<phpdepend>
     	   <fileset refid="sources" />
-    	   <logger type="jdepend-xml" outfile="${dir.reports}/jdepend.xml"/>
+    	   <logger type="jdepend-xml" outfile="${dir.reports.pdepend}/jdepend.xml"/>
     	   <analyzer type="coderank-mode" value="method"/>
     	 </phpdepend>
     </target>
