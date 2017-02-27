@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Phing static code analysis" default="all">
-	<php expression="include('./vendor/autoload.php')" />
+    <php expression="include('./vendor/autoload.php')" />
+    
     <!-- Properties -->
     <property name="dir.base" value="${project.basedir}" />
     <property name="dir.tests" value="${project.basedir}/tests" />
