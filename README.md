@@ -24,3 +24,5 @@ All results are saved inside phing-build directory.
 * phpunit/phpunit
 * phpdocumentor/phpdocumentor
 * ext-xsl (It requires php extension xsl to generate coverage html report).
+
+See [mcustiel/docker-php-tools](https://github.com/mcustiel/docker-php-tools), you can find all need tools there..
